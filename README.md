@@ -16,36 +16,6 @@ psych_streamlit/
 ```
 
 ---
-
-## 🚀 Deploy to Streamlit Cloud (Free)
-
-### Step 1 — Push to GitHub
-1. Create a **new GitHub repository** (public or private).
-2. Upload these 3 files: `app.py`, `requirements.txt`, `README.md`.
-3. Also upload your PDF (`physicology_1st.pdf`) — **not required** since users upload it via the UI.
-
-### Step 2 — Deploy on Streamlit Cloud
-1. Go to **[share.streamlit.io](https://share.streamlit.io)** and sign in with GitHub.
-2. Click **"New app"**.
-3. Select your repository, branch (`main`), and set **Main file path** to `app.py`.
-4. Click **"Deploy"** — it will be live in ~2 minutes!
-
----
-
-## 💻 Run Locally
-
-```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Run the app
-streamlit run app.py
-```
-
-Then open **http://localhost:8501** in your browser.
-
----
-
 ## 🎯 How to Use
 
 1. Upload your **NCERT Psychology PDF** in the sidebar.
